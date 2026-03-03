@@ -11,4 +11,5 @@ Habit building website for individuals with ADHD
 -copy the firebase config from the console after linking it to the app name
 - create a firebase.js setup file in the src
 - Edit the App.js file to test the webpage manipulation
+- type in "npm install -g serve" then "serve -s build"
 - Web app deployed
