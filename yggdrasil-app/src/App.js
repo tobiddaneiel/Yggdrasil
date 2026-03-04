@@ -1,15 +1,15 @@
 import logo from './logo.svg';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Yggdrasil App - A decentralized identity and access management platform is online
-        </p>
       </header>
+      <body>
+        <Home />
+      </body>
     </div>
   );
 }
